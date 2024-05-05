@@ -1,0 +1,63 @@
+
+
+body {
+    background-color:#fb6f92;
+    /* Use a system font, if none are available use an available sans-sarif */
+    font-family: 'Dancing Script', sans-serif;
+    color: #bde0fe;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   
+    
+  }
+  
+  h1{
+    text-align: center;
+    
+  }
+#message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#board-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 325px; 
+    
+  }
+  
+  
+  .sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px solid #a2d2ff;
+    border-radius: 10%;
+    margin: 1px;
+    font-size: 64px;
+    text-align: center;
+  }
+  
+  #reset-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  #reset{
+  color: #bde0fe;
+  font-size: 30px;
+  font-family:'Dancing Script', sans-serif;
+  border-radius: 50%;
+  border: none;
+  background-color:#fb6f92;
+  text-decoration:underline;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+    
